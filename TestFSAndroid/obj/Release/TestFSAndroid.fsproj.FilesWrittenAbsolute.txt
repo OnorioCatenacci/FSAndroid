@@ -1,0 +1,12 @@
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Release/TestFSAndroid.dll.mdb
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Release/TestFSAndroid.dll
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Release/TestFSAndroid.TestFSAndroid.apk
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/android/bin/TestFSAndroid.TestFSAndroid.apk
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/res/layout/main.xml
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/res/values/strings.xml
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/res/drawable/icon.png
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/R.cs.flag
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Release/TestFSAndroid.TestFSAndroid-Signed.apk
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/uploadflags.txt
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/TestFSAndroid.dll
+/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/obj/Release/TestFSAndroid.dll.mdb

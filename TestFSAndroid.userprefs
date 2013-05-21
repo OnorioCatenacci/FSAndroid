@@ -1,0 +1,34 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
+    <Files>
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="27" Column="24" />
+      <File FileName="TestFSAndroid/Resources/Resource.designer.fs" Line="1" Column="1" />
+      <File FileName="TestFSAndroid/Resources/values/Strings.xml" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="TestFSAndroid" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="MainActivity.fs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Release="emulator-5554" AndroidDeviceId-Debug="emulator-5554" />
+</Properties>

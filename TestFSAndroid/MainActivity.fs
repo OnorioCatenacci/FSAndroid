@@ -17,8 +17,6 @@ open Android.Widget
 type MainActivity () =
     inherit Activity ()
 
-//    let mutable count:int = 1
-
     override this.OnCreate (bundle) =
 
         base.OnCreate (bundle)
@@ -33,13 +31,6 @@ type MainActivity () =
         |> Observable.subscribe (fun clickcount -> button.Text <- sprintf "Clicked %d times!" clickcount)
         |> ignore
         
-          // Get our button from the layout resource, and attach an event to it
-//        let button = this.FindViewById<Button>(Resource_Id.myButton)
-//        button.Click.Add (fun args -> 
-//            button.Text <- sprintf "%d clicks!" count
-//            count <- count + 1
-//        )
-
         member this.AttachButtonAndReturnObservable btnId =
             let button = this.FindViewById<Button>(btnId)
         

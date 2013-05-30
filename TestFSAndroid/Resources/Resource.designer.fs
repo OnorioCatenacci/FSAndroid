@@ -21,10 +21,10 @@ namespace TestFSAndroid
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException70a0079fa9144f138b9e6c5351faff27 of obj
-    exception ReturnNoneException70a0079fa9144f138b9e6c5351faff27
+    exception ReturnException99e6dab59d8a45bc8484874fe2f18438 of obj
+    exception ReturnNoneException99e6dab59d8a45bc8484874fe2f18438
     [<AutoOpen>]
-    module FuncConvertFinalOverload70a0079fa9144f138b9e6c5351faff27 =
+    module FuncConvertFinalOverload99e6dab59d8a45bc8484874fe2f18438 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -63,7 +63,10 @@ namespace TestFSAndroid
         
         (* partial *)Resource_Id = class
             // aapt resource value: 0x7f050000
-            static member myButton = 2131034112
+            static member HelloWorldButton = 2131034112
+            
+            // aapt resource value: 0x7f050001
+            static member TestCheckBox = 2131034113
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
             new() as this =
                 {

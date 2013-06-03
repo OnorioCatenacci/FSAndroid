@@ -2,17 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
     <Files>
-      <File FileName="TestFSAndroid/MainActivity.fs" Line="3" Column="12" />
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="28" Column="71" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="TestFSAndroid" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="Resources" expanded="True">
-              <Node name="drawable" expanded="True" />
-              <Node name="layout" expanded="True" />
-            </Node>
+            <Node name="Assets" expanded="True" />
+            <Node name="Properties" expanded="True" />
+            <Node name="Resources" expanded="True" />
             <Node name="MainActivity.fs" selected="True" />
           </Node>
         </State>
@@ -32,5 +31,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Release="HT2BAW304344" AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Release="HT2BAW304344" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

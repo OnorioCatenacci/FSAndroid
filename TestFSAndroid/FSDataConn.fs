@@ -5,9 +5,9 @@ module FSDataConn
     open Android.Net
     open System
     
-    let IsConnectionAvailable (this: Activity) (connTypeToCheckFor:String) =
+    let IsConnectionAvailable (app: Activity) (connTypeToCheckFor:String) =
     
-        let n = this.GetSystemService(Context.ConnectivityService)
+        let n = app.GetSystemService(Context.ConnectivityService)
         
         let cm = 
             match n with 

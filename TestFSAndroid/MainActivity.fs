@@ -20,11 +20,13 @@ type MainActivity () =
         
         let (button:Button), buttonObserver = this.AttachButtonAndReturnObservable Resource_Id.HelloWorldButton
         let (chkBox:CheckBox), checkBoxObserver = this.AttachCheckboxAndReturnObservable Resource_Id.TestCheckBox
+        let wifiStatus = this.FindViewById<EditText>(Resource_Id.WifiAvailability)
         
+        wifiStatus.Text <- sprintf "WiFi is %s" <| if IsConnectionAvailable this "WIFI" then "available" else "unavailable"
+                
         buttonObserver 
         |> Observable.scan (fun clickcount _ -> clickcount + 1) 0
-        |> Observable.subscribe (fun clickcount -> button.Text <- sprintf "connType is %A" <| IsConnectionAvailable this "WIFI")
-        |> ignore
+        |> Observable.subscribe (fun clickcount -> button.Text <- sprintf "Clicked %d times" clickcount) |> ignore
         
         checkBoxObserver
         |> Observable.subscribe (fun _ -> 

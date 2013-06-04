@@ -1,18 +1,15 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/FSDataConn.fs">
     <Files>
-      <File FileName="TestFSAndroid/MainActivity.fs" Line="38" Column="1" />
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="29" Column="25" />
+      <File FileName="TestFSAndroid/FSDataConn.fs" Line="21" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="TestFSAndroid" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="Assets" expanded="True" />
-            <Node name="Properties" expanded="True" />
-            <Node name="Resources" expanded="True" />
-            <Node name="MainActivity.fs" selected="True" />
+            <Node name="FSDataConn.fs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -31,5 +28,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Release="HT2BAW304344" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
+  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Debug="HT2BAW304344" />
 </Properties>

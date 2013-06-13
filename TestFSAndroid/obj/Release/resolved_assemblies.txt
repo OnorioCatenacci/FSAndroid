@@ -1,8 +1,8 @@
 /Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Release/TestFSAndroid.dll
-/Developer/MonoTouch/usr/lib/mono/2.1/FSharp.Core.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/mscorlib.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mandroid/platforms/android-8/Mono.Android.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/System.Xml.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/System.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/Mono.Security.dll
 /Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/System.Core.dll
+/Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/FSharp.Core.dll

@@ -9,8 +9,6 @@ open FSDataConn
 type MainActivity () =
     inherit Activity ()
     
-    member public this.m:MainActivity = this
-
     override this.OnCreate (bundle) =
 
         base.OnCreate (bundle)
@@ -22,7 +20,7 @@ type MainActivity () =
         let (chkBox:CheckBox), checkBoxObserver = this.AttachCheckboxAndReturnObservable Resource_Id.TestCheckBox
         let wifiStatus = this.FindViewById<EditText>(Resource_Id.WifiAvailability)
         
-        wifiStatus.Text <- sprintf "WiFi is %s" <| if IsConnectionAvailable this "WIFI" then "available" else "unavailable"
+        wifiStatus.Text <- sprintf "WiFi is %s" <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then "available" else "unavailable"
                 
         buttonObserver 
         |> Observable.scan (fun clickcount _ -> clickcount + 1) 0

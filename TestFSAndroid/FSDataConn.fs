@@ -3,23 +3,17 @@ module FSDataConn
     open Android.App
     open Android.Content
     open Android.Net
-    open System
+//    open System
     
-    let IsConnectionAvailable (app: Activity) (connTypeToCheckFor:String) =
+    let IsConnectionAvailable (app:Activity) connTypeToCheckFor =
     
         let n = app.GetSystemService(Context.ConnectivityService)
         
         let cm = 
             match n with 
             | :? ConnectivityManager as cm -> Some(cm)
-            | null  -> None
+            | null | _ -> None
         
         let cs = if cm.IsSome then Some(cm.Value.get_ActiveNetworkInfo()) else None
         
-        let r = 
-            if cs.IsSome then 
-                cs.Value.TypeName
-            else 
-                String.Empty
-                
-        r.ToUpperInvariant() = connTypeToCheckFor.ToUpperInvariant()
+        if cs.IsSome then (cs.Value.Type = connTypeToCheckFor) else false 

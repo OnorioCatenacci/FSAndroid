@@ -3,7 +3,6 @@ module FSDataConn
     open Android.App
     open Android.Content
     open Android.Net
-//    open System
     
     let IsConnectionAvailable (app:Activity) connTypeToCheckFor =
     

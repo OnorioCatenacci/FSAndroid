@@ -2,17 +2,18 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
     <Files>
-      <File FileName="TestFSAndroid/MainActivity.fs" Line="23" Column="117" />
-      <File FileName="TestFSAndroid/FSDataConn.fs" Line="1" Column="18" />
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="11" Column="5" />
+      <File FileName="TestFSAndroid/FSDataConn.fs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="TestFSAndroid" expanded="True" selected="True">
+          <Node name="TestFSAndroid" expanded="True">
             <Node name="References" expanded="True" />
             <Node name="Resources" expanded="True">
               <Node name="layout" expanded="True" />
             </Node>
+            <Node name="MainActivity.fs" selected="True" />
           </Node>
         </State>
       </Pad>

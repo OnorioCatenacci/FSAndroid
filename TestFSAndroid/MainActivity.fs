@@ -1,3 +1,5 @@
+//Observable merge-wait for timer and wait for event.  That is, if the event doesn't occur before a timer expires, handle the timer expiration. 
+
 namespace TestFSAndroid
 
 open System

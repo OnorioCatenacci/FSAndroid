@@ -1,24 +1,28 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/FSDataConn.fs">
     <Files>
-      <File FileName="TestFSAndroid/MainActivity.fs" Line="11" Column="5" />
-      <File FileName="TestFSAndroid/FSDataConn.fs" Line="19" Column="1" />
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="25" Column="79" />
+      <File FileName="TestFSAndroid/FSDataConn.fs" Line="1" Column="1" />
+      <File FileName="TestFSAndroid/Resources/Resource.designer.fs" Line="1" Column="1" />
+      <File FileName="TestFSAndroid/Properties/AndroidManifest.xml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="TestFSAndroid" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="Properties" expanded="True" />
             <Node name="Resources" expanded="True">
               <Node name="layout" expanded="True" />
+              <Node name="values" expanded="True" />
             </Node>
-            <Node name="MainActivity.fs" selected="True" />
+            <Node name="FSDataConn.fs" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />

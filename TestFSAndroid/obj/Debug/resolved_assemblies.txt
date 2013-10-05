@@ -1,2 +1,0 @@
-/Users/Onorio_Development/Projects/TestFSAndroid/TestFSAndroid/bin/Debug/TestFSAndroid.dll
-/Library/Frameworks/Xamarin.Android.framework/Versions/Current/lib/mono/2.1/FSharp.Core.dll

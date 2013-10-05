@@ -39,7 +39,6 @@
     <ConsolePause>false</ConsolePause>
     <Tailcalls>true</Tailcalls>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

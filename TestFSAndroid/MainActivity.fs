@@ -22,8 +22,14 @@ type MainActivity () =
         let (chkBox:CheckBox), checkBoxObserver = this.AttachCheckboxAndReturnObservable Resource_Id.TestCheckBox
         let wifiStatus = this.FindViewById<EditText>(Resource_Id.WifiAvailability)
         
-        wifiStatus.Text <- sprintf "WiFi is %s" <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then "available" else "unavailable"
-                
+        let setWifiStatusMsg =
+            sprintf (Printf.StringFormat<string->string> (this.GetString(Resource_String.wifi_state))) 
+            <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then this.GetString(Resource_String.wifi_available) else this.GetString(Resource_String.wifi_unavailable)
+        
+//        wifiStatus.Text <- sprintf "Wifi is %s" <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then "available" else "unavailable"
+
+        wifiStatus.Text <- setWifiStatusMsg
+                        
         buttonObserver 
         |> Observable.scan (fun clickcount _ -> clickcount + 1) 0
         |> Observable.subscribe (fun clickcount -> button.Text <- sprintf "Clicked %d times" clickcount) |> ignore
@@ -31,7 +37,7 @@ type MainActivity () =
         checkBoxObserver
         |> Observable.subscribe (fun _ -> 
             button.Enabled <- not (button.Enabled)
-            chkBox.Text <- if button.Enabled then "Disable Hello World Button" else "Enable Hello World Button")
+            chkBox.Text <- if button.Enabled then this.GetString(Resource_String.disable_message) else this.GetString(Resource_String.enable_message))
         |> ignore
         
         member this.AttachButtonAndReturnObservable btnId =

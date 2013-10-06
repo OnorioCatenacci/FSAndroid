@@ -2,4 +2,9 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">TestFSAndroid</string>
+	<string name="wifi_state">Wifi is %s</string>
+	<string name="wifi_available">available</string>
+	<string name="wifi_unavailable">unavailable</string>
+	<string name="enable_message">Enable Hello World Button</string>
+	<string name="disable_message">Disable Hello World Button</string>
 </resources>

@@ -39,6 +39,7 @@
     <ConsolePause>false</ConsolePause>
     <Tailcalls>true</Tailcalls>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi</AndroidSupportedAbis>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

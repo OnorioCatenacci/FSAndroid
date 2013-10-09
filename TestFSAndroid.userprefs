@@ -2,10 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="TestFSAndroid/MainActivity.fs">
     <Files>
-      <File FileName="TestFSAndroid/MainActivity.fs" Line="26" Column="21" />
+      <File FileName="TestFSAndroid/MainActivity.fs" Line="14" Column="38" />
       <File FileName="TestFSAndroid/FSDataConn.fs" Line="1" Column="1" />
-      <File FileName="TestFSAndroid/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="TestFSAndroid/Resources/values/Strings.xml" Line="5" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -36,5 +34,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestFSAndroid AndroidDeviceId-Debug="HT2BAW304344" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.TestFSAndroid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

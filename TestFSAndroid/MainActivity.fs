@@ -23,10 +23,12 @@ type MainActivity () =
         let wifiStatus = this.FindViewById<EditText>(Resource_Id.WifiAvailability)
         
         let setWifiStatusMsg =
+            //This is how you build a sprintf with a variable instead of a string literal.
             sprintf (Printf.StringFormat<string->string> (this.GetString(Resource_String.wifi_state))) 
-            <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then this.GetString(Resource_String.wifi_available) else this.GetString(Resource_String.wifi_unavailable)
+            <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi 
+                then this.GetString(Resource_String.wifi_available) 
+                else this.GetString(Resource_String.wifi_unavailable)
         
-//        wifiStatus.Text <- sprintf "Wifi is %s" <| if IsConnectionAvailable this Android.Net.ConnectivityType.Wifi then "available" else "unavailable"
 
         wifiStatus.Text <- setWifiStatusMsg
                         
